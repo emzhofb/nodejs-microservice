@@ -6,6 +6,12 @@ npm install -g express-gateway
 eg gateway create
 ```
 
+make sure to check the
+```
+server.js
+config/gateway.config.yml
+```
+
 create https credentials
 ```
 openssl req -nodes -new -x509 -keyout private-key.pem -out certificate.pem
