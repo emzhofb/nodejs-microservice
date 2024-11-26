@@ -9,3 +9,4 @@ Use express gateway to perform these list of features:
 - express gateway oauth2
 - express gateway pipelines
 - multi thread work distribution
+- express gateway load balancing
