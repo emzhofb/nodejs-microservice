@@ -10,3 +10,4 @@ Use express gateway to perform these list of features:
 - express gateway pipelines
 - multi thread work distribution
 - express gateway load balancing
+- basic authentication, password-less, role based
