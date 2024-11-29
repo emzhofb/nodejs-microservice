@@ -28,3 +28,10 @@ eg apps create -u [username]
 note that after create the user, we will get the id, that will put in client_id below, and also redirect_uri is same as when create `eg apps create ...`
 
 now hit this url http://localhost:8080/oauth2/authorize?response_type=token&client_id=8db6b462-ef2f-4140-b6e3-9cc28ddbca34&redirect_uri=http://google.com
+
+run the password-less project use ngrok
+```
+brew install ngrok/ngrok/ngrok
+ngrok config add-authtoken YOUR_AUTH_TOKEN
+ngrok http 3000
+```
