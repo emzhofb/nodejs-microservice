@@ -13,10 +13,11 @@ Use express gateway to perform these list of features:
 - basic authentication, password-less, role based
 
 ## Logging Monitoring
+
 Logging
 - ELK stack
 - filebeat
-<br />
+
 Monitoring
 - grafana
 - prometheus
