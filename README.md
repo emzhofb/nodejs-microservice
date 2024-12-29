@@ -11,3 +11,12 @@ Use express gateway to perform these list of features:
 - multi thread work distribution
 - express gateway load balancing
 - basic authentication, password-less, role based
+
+## Logging Monitoring
+Logging
+- ELK stack
+- filebeat
+Monitoring
+- grafana
+- prometheus
+- alert manager

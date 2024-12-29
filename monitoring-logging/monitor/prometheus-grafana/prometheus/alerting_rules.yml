@@ -1,0 +1,11 @@
+groups:
+- name: globoticket_alerts
+  rules:
+  - alert: LowEventProcessingRate
+    expr: rate(globoticket_events_processed_total[1m]) < 0.5
+    for: 10s  # Alert if condition persists for 10 seconds
+    labels:
+      severity: warning
+    annotations:
+      summary: "Globoticket event processing rate is too low"
+      description: "Event processing rate has fallen below 0.5 events per second for the past 10 seconds. Investigate potential slowdown or bottleneck."
