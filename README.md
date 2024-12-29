@@ -16,7 +16,8 @@ Use express gateway to perform these list of features:
 Logging
 - ELK stack
 - filebeat
-\Monitoring
+<br />
+Monitoring
 - grafana
 - prometheus
 - alert manager
