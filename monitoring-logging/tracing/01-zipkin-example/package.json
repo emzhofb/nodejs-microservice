@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "start:A": "node service-A.js",
+    "start:B": "node service-B.js"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "morgan": "1.10.0",
+    "zipkin": "0.22.0",
+    "zipkin-context-cls": "0.22.0",
+    "zipkin-instrumentation-express": "0.22.0",
+    "zipkin-instrumentation-fetch": "0.22.0",
+    "zipkin-transport-http": "0.22.0"
+  }
+}

@@ -22,3 +22,8 @@ Monitoring
 - grafana
 - prometheus
 - alert manager
+
+Tracing
+- zipkin
+- jaeger
+- open telemetry
